@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Product Landing</title>
+
+</head>
+
+<style>
+	@media (max-height: 800px){
+		font-size: 10px;
+	}
+
+	#header{
+	position: fixed;
+	top: 0px;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	}
+	
+	#header-img {
+		max-width: 10%;
+		height: auto
+	}
+	
+	body{
+		padding-top:100px;
+	}
+	
+</style>
+
+
+<header id="header">
+	<figure>
+		<img src="https://styles.redditmedia.com/t5_3hcqf4/styles/communityIcon_auihtoaun0261.png?width=256&s=9ace16e0c6124071d4cc3eedfaee0642930d6df8" id="header-img">
+	</figure>
+	<nav id="nav-bar">
+		<a href="#section1" class="nav-link">Link 1</a>
+		<a href="#section2" class="nav-link">Link 2</a>
+		<a href="#section3" class="nav-link">Link 3</a>
+	</nav>
+</header>
+
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+	<article>
+		<section id="section1">
+			Section 1<br>
+			<video id="video" controls>
+				<source src="#" type="video/mp4">
+			</video>
+		</section><br>
+		<section id="section2">
+			Section 2
+		</section><br>
+		<section id="section3">
+			Section 3
+		</section><br>	
+	</article>
+	
+	<form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+		<label id="email-label">E-mail:</label><input type="email" name="email" id="email" placeholder="email" required><br>
+		<input type="submit" id="submit" value="Submit"</input>
+	</form>
+
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
