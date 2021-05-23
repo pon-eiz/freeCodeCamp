@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Personal Portfolio Page</title>
+</head>
+
+<style>
+	@media (max-width: 800px){
+		font-size: 10px;
+	}
+	
+	#navbar {
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		display: flex;
+	}
+	
+	article {
+		padding-top: 100px;
+	}
+	
+	#welcome-section{
+		height: 100vmin;
+		
+	
+</style>
+
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+	<nav id="navbar">
+		<a href="#welcome-section"> Welcome</a>
+		<a href="#projects"> Projects </a>
+		<a href="#profile">Profile</a>
+	</nav>
+	<main>
+		<article>
+			<section id="welcome-section">
+				<h1>Welcome Section</h1>
+			</section>
+			<section id="projects">
+				<div class="project-tile" id="project_1">
+					<a href="#" id="link-project1" target="_blank">Project 1</a>
+				</div>
+			</section>
+			<section id="profile">
+				<a href="https://github.com/pon-eiz" id="profile-link" target="_blank"> Profile</a>
+			</section>
+		</article>
+	</main>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
